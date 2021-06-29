@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	
+	<servlet>
+		<servlet-name>App30</servlet-name>
+		<servlet-class>HydJobsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>App30</servlet-name>
+		<servlet-class>BangaloreJobsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>App30</servlet-name>
+		<servlet-class>PuneJobsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>App30</servlet-name>
+		<url-pattern>/test1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>App30</servlet-name>
+		<url-pattern>/test2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>App30</servlet-name>
+		<url-pattern>/test3</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+</web-app>
